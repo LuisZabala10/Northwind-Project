@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.API", "Northwind.API\Northwind.API.csproj", "{47E7468C-7EE4-4EBC-ABA9-29CC2DFD17C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.API", "Northwind.API\Northwind.API.csproj", "{47E7468C-7EE4-4EBC-ABA9-29CC2DFD17C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.BusinessLogic", "Northwind.BusinessLogic\Northwind.BusinessLogic.csproj", "{70F05F79-502F-44D7-B5ED-44F6128B2FF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.BusinessLogic", "Northwind.BusinessLogic\Northwind.BusinessLogic.csproj", "{70F05F79-502F-44D7-B5ED-44F6128B2FF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.DataAccess", "Northwind.DataAccess\Northwind.DataAccess.csproj", "{B280693C-F7F2-4A03-9D90-F4BBE89C3D5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.DataAccess", "Northwind.DataAccess\Northwind.DataAccess.csproj", "{B280693C-F7F2-4A03-9D90-F4BBE89C3D5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Domain", "Northwind.Domain\Northwind.Domain.csproj", "{C4410D11-9217-4572-81C7-FEBCABB8BCDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Domain", "Northwind.Domain\Northwind.Domain.csproj", "{C4410D11-9217-4572-81C7-FEBCABB8BCDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common", "Northwind.Common\Northwind.Common.csproj", "{B23F016C-2201-4B6A-A17D-2830DBE72BA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Common", "Northwind.Common\Northwind.Common.csproj", "{B23F016C-2201-4B6A-A17D-2830DBE72BA0}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8A6D9D1C-4BAB-4B91-978B-0A87A4EEFE1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B23F016C-2201-4B6A-A17D-2830DBE72BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B23F016C-2201-4B6A-A17D-2830DBE72BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B23F016C-2201-4B6A-A17D-2830DBE72BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A6D9D1C-4BAB-4B91-978B-0A87A4EEFE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6D9D1C-4BAB-4B91-978B-0A87A4EEFE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6D9D1C-4BAB-4B91-978B-0A87A4EEFE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6D9D1C-4BAB-4B91-978B-0A87A4EEFE1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

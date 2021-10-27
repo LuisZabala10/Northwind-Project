@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  northwind.api:
+    image: ${DOCKER_REGISTRY-}northwindapi
+    build:
+      context: .
+      dockerfile: Northwind.API/Dockerfile
